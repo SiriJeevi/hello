@@ -9,5 +9,10 @@ public class HelloController {
 	public String hello() {
 		return "Hello world Welcome New World...........Mr. Chiranjeevi ##########";
 	}
+	
+	@GetMapping("/welcome")
+	public String welcome1() {
+		return "Hello world Welcome New World..........";
+	}
 
 }
